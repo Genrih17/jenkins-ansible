@@ -23,7 +23,7 @@
       yum_repository:
         name: MariaDB
         description: MariaDB
-        baseurl: http://yum.mariadb.org/10.10.1/$basearch/
+        baseurl: http://yum.mariadb.org/10.10.1/centos$basearch/
         enabled: yes
         gpgcheck: yes
         gpgkey: https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
