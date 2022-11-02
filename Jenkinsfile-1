@@ -8,7 +8,7 @@ pipeline {
           ansible --version
           ansible-playbook --version
           ansible-galaxy --version
-          ansible all -m ping
+          ansible -i /home/cloud_user/hosts -m ping
         '''
       }
     }
